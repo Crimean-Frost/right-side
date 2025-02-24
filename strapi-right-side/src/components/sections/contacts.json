@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "contactLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.contact-link",
+      "required": true
+    },
+    "address": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "addressLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

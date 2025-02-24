@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "cases_pages",
+  "info": {
+    "singularName": "cases-page",
+    "pluralName": "cases-pages",
+    "displayName": "Страницы - Кейсы"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.card-pagination",
+        "sections.advantages",
+        "sections.blog-hero"
+      ],
+      "required": true
+    }
+  }
+}

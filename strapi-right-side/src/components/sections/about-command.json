@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_about_commands",
+  "info": {
+    "displayName": "AboutCommand",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "coverMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.text-card"
+    }
+  }
+}

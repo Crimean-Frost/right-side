@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_sector_applications",
+  "info": {
+    "displayName": "SectorApplication",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

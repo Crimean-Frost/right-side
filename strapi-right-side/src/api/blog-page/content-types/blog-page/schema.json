@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_pages",
+  "info": {
+    "singularName": "blog-page",
+    "pluralName": "blog-pages",
+    "displayName": "Страница - Блог",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.card-pagination",
+        "sections.advantages",
+        "sections.blog-hero"
+      ],
+      "required": true
+    }
+  }
+}

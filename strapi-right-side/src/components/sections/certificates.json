@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_certificates",
+  "info": {
+    "displayName": "Certificates",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.image"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_clients_and_partners",
+  "info": {
+    "displayName": "Clients&Partners",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    }
+  }
+}

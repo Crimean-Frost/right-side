@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_detail_chapters",
+  "info": {
+    "displayName": "DetailChapter"
+  },
+  "options": {},
+  "attributes": {
+    "shortTitle": {
+      "type": "text",
+      "required": true
+    },
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

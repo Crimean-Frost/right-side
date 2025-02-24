@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Страница - Команда",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.main-hero",
+        "sections.about-command",
+        "sections.our-employees",
+        "sections.contact-us",
+        "sections.advantages",
+        "sections.leave-application-description"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_modal_windows",
+  "info": {
+    "displayName": "ModalWindow",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.modal-form"
+    },
+    "completeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "completeDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

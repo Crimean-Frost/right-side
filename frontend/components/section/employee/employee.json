@@ -1,0 +1,385 @@
+{
+  "data": {
+    "id": 1,
+    "documentId": "wm8d23kaes5pxj8ujkymquuh",
+    "shortDescription": "Адвокат, управляющий партнер адвокатского бюро «Аманлиев, Комаровская, Тимченко»  города Москвы\n",
+    "description": "Адвокат Right Side, управляющий партнер адвокатского бюро «Аманлиев, Комаровская, Тимченко» города Москвы\n",
+    "createdAt": "2024-10-17T16:27:27.104Z",
+    "updatedAt": "2024-10-24T11:43:47.941Z",
+    "publishedAt": null,
+    "locale": null,
+    "slug": "first-employee",
+    "button": "Связаться",
+    "link": null,
+    "position": null,
+    "firstName": "Марат",
+    "lastName": "Аманлиев",
+    "middleName": "Ильич",
+    "seo": null,
+    "mainPhoto": {
+      "id": 83,
+      "documentId": "t79rbmhoka0b4ajilv8909y5",
+      "name": "main-employee.webp",
+      "alternativeText": null,
+      "caption": null,
+      "width": 530,
+      "height": 588,
+      "formats": {
+        "small": {
+          "ext": ".webp",
+          "url": "/uploads/small_main_employee_4bcd31b551.webp",
+          "hash": "small_main_employee_4bcd31b551",
+          "mime": "image/webp",
+          "name": "small_main-employee.webp",
+          "path": null,
+          "size": 15.7,
+          "width": 451,
+          "height": 500,
+          "sizeInBytes": 15696
+        },
+        "thumbnail": {
+          "ext": ".webp",
+          "url": "/uploads/thumbnail_main_employee_4bcd31b551.webp",
+          "hash": "thumbnail_main_employee_4bcd31b551",
+          "mime": "image/webp",
+          "name": "thumbnail_main-employee.webp",
+          "path": null,
+          "size": 3.82,
+          "width": 141,
+          "height": 156,
+          "sizeInBytes": 3824
+        }
+      },
+      "hash": "main_employee_4bcd31b551",
+      "ext": ".webp",
+      "mime": "image/webp",
+      "size": 23.8,
+      "url": "/uploads/main_employee_4bcd31b551.webp",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "createdAt": "2024-10-17T16:25:49.219Z",
+      "updatedAt": "2024-10-17T16:25:49.219Z",
+      "publishedAt": "2024-10-17T16:25:49.220Z",
+      "locale": null
+    },
+    "mainPhotoMobile": {
+      "id": 82,
+      "documentId": "inom73sgux8ovw7ilpv2y1wi",
+      "name": "main-employee-mobile.webp",
+      "alternativeText": null,
+      "caption": null,
+      "width": 428,
+      "height": 470,
+      "formats": {
+        "thumbnail": {
+          "ext": ".webp",
+          "url": "/uploads/thumbnail_main_employee_mobile_d3f9f814d3.webp",
+          "hash": "thumbnail_main_employee_mobile_d3f9f814d3",
+          "mime": "image/webp",
+          "name": "thumbnail_main-employee-mobile.webp",
+          "path": null,
+          "size": 3.89,
+          "width": 142,
+          "height": 156,
+          "sizeInBytes": 3886
+        }
+      },
+      "hash": "main_employee_mobile_d3f9f814d3",
+      "ext": ".webp",
+      "mime": "image/webp",
+      "size": 17.7,
+      "url": "/uploads/main_employee_mobile_d3f9f814d3.webp",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "createdAt": "2024-10-17T16:25:49.104Z",
+      "updatedAt": "2024-10-17T16:25:49.104Z",
+      "publishedAt": "2024-10-17T16:25:49.104Z",
+      "locale": null
+    },
+    "cases": [
+      {
+        "id": 18,
+        "documentId": "h9ewtytb89i7nzq2gi4rsrir",
+        "shortTitle": "Взыскание арендной платы  за помещение и его реализация",
+        "shortDescription": "Рассказываем о помощи клиенту в освобождении помещения и его дальнейшей продаже, а также  во взыскании недополученной арендной платы",
+        "title": "\u003Cp\u003EВзыскание арендной платы &nbsp;за помещение и его реализация\u003C/p\u003E",
+        "slug": "case",
+        "createdAt": "2024-10-17T17:29:57.309Z",
+        "updatedAt": "2024-10-17T17:29:57.309Z",
+        "publishedAt": null,
+        "locale": null
+      },
+      {
+        "id": 5,
+        "documentId": "n3zzkihyezkiinn9bn0xvcsp",
+        "shortTitle": "Возмещение вреда здоровью пострадавшей от РЖД",
+        "shortDescription": "Узнайте о том, как наши юристы добились крупной компенсации и пожизненных выплат для женщины, потерявшей руку в результате падения под поезд",
+        "title": "\u003Cp\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003EВозмещение вреда здоровью пострадавшей от РЖД\u003C/span\u003E\u003C/p\u003E",
+        "slug": "third-case",
+        "createdAt": "2024-10-17T17:24:01.330Z",
+        "updatedAt": "2024-10-17T17:24:01.330Z",
+        "publishedAt": null,
+        "locale": null
+      }
+    ],
+    "content": [
+      {
+        "__component": "sections.about-employee",
+        "id": 1,
+        "titleContainer": {
+          "id": 151,
+          "title": "О сотруднике",
+          "description": "\u003Cp\u003E\u003Cspan style=\"font-family:Golos;\"\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003EПрактикующий адвокат\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003E \u003C/span\u003E\u003Cspan style=\"color:hsl( 6, 100%, 57% );font-family:Mulish;\"\u003E\u003Ci\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003Eс 2012 года\u003C/span\u003E\u003C/i\u003E\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E&nbsp;\u003C/p\u003E"
+        },
+        "smallImage": {
+          "id": 85,
+          "documentId": "x3hh7w61bz9mfldxciqfks67",
+          "name": "small-employee.webp",
+          "alternativeText": null,
+          "caption": null,
+          "width": 475,
+          "height": 677,
+          "formats": {
+            "small": {
+              "ext": ".webp",
+              "url": "/uploads/small_small_employee_b2885f88f4.webp",
+              "hash": "small_small_employee_b2885f88f4",
+              "mime": "image/webp",
+              "name": "small_small-employee.webp",
+              "path": null,
+              "size": 14.64,
+              "width": 351,
+              "height": 500,
+              "sizeInBytes": 14644
+            },
+            "thumbnail": {
+              "ext": ".webp",
+              "url": "/uploads/thumbnail_small_employee_b2885f88f4.webp",
+              "hash": "thumbnail_small_employee_b2885f88f4",
+              "mime": "image/webp",
+              "name": "thumbnail_small-employee.webp",
+              "path": null,
+              "size": 3.34,
+              "width": 109,
+              "height": 156,
+              "sizeInBytes": 3344
+            }
+          },
+          "hash": "small_employee_b2885f88f4",
+          "ext": ".webp",
+          "mime": "image/webp",
+          "size": 26.28,
+          "url": "/uploads/small_employee_b2885f88f4.webp",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2024-10-17T16:25:49.223Z",
+          "updatedAt": "2024-10-17T16:25:49.223Z",
+          "publishedAt": "2024-10-17T16:25:49.223Z",
+          "locale": null
+        },
+        "largeImage": {
+          "id": 86,
+          "documentId": "jz6n9k4r0pwn2uk5g7vmonvq",
+          "name": "large-employee.webp",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1411,
+          "height": 677,
+          "formats": {
+            "large": {
+              "ext": ".webp",
+              "url": "/uploads/large_large_employee_35d04d459d.webp",
+              "hash": "large_large_employee_35d04d459d",
+              "mime": "image/webp",
+              "name": "large_large-employee.webp",
+              "path": null,
+              "size": 27.85,
+              "width": 1000,
+              "height": 480,
+              "sizeInBytes": 27846
+            },
+            "small": {
+              "ext": ".webp",
+              "url": "/uploads/small_large_employee_35d04d459d.webp",
+              "hash": "small_large_employee_35d04d459d",
+              "mime": "image/webp",
+              "name": "small_large-employee.webp",
+              "path": null,
+              "size": 11.35,
+              "width": 500,
+              "height": 240,
+              "sizeInBytes": 11348
+            },
+            "medium": {
+              "ext": ".webp",
+              "url": "/uploads/medium_large_employee_35d04d459d.webp",
+              "hash": "medium_large_employee_35d04d459d",
+              "mime": "image/webp",
+              "name": "medium_large-employee.webp",
+              "path": null,
+              "size": 19.53,
+              "width": 750,
+              "height": 360,
+              "sizeInBytes": 19526
+            },
+            "thumbnail": {
+              "ext": ".webp",
+              "url": "/uploads/thumbnail_large_employee_35d04d459d.webp",
+              "hash": "thumbnail_large_employee_35d04d459d",
+              "mime": "image/webp",
+              "name": "thumbnail_large-employee.webp",
+              "path": null,
+              "size": 4.69,
+              "width": 245,
+              "height": 118,
+              "sizeInBytes": 4694
+            }
+          },
+          "hash": "large_employee_35d04d459d",
+          "ext": ".webp",
+          "mime": "image/webp",
+          "size": 49.95,
+          "url": "/uploads/large_employee_35d04d459d.webp",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2024-10-17T16:25:49.418Z",
+          "updatedAt": "2024-10-17T16:25:49.418Z",
+          "publishedAt": "2024-10-17T16:25:49.418Z",
+          "locale": null
+        },
+        "largeImageMobile": {
+          "id": 84,
+          "documentId": "cqpf77d71rm2hbirv67kk1nq",
+          "name": "large-employee-mobile.webp",
+          "alternativeText": null,
+          "caption": null,
+          "width": 744,
+          "height": 466,
+          "formats": {
+            "small": {
+              "ext": ".webp",
+              "url": "/uploads/small_large_employee_mobile_f73cc4e6bd.webp",
+              "hash": "small_large_employee_mobile_f73cc4e6bd",
+              "mime": "image/webp",
+              "name": "small_large-employee-mobile.webp",
+              "path": null,
+              "size": 13.4,
+              "width": 500,
+              "height": 313,
+              "sizeInBytes": 13396
+            },
+            "thumbnail": {
+              "ext": ".webp",
+              "url": "/uploads/thumbnail_large_employee_mobile_f73cc4e6bd.webp",
+              "hash": "thumbnail_large_employee_mobile_f73cc4e6bd",
+              "mime": "image/webp",
+              "name": "thumbnail_large-employee-mobile.webp",
+              "path": null,
+              "size": 5.54,
+              "width": 245,
+              "height": 153,
+              "sizeInBytes": 5544
+            }
+          },
+          "hash": "large_employee_mobile_f73cc4e6bd",
+          "ext": ".webp",
+          "mime": "image/webp",
+          "size": 25.3,
+          "url": "/uploads/large_employee_mobile_f73cc4e6bd.webp",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2024-10-17T16:25:49.221Z",
+          "updatedAt": "2024-10-17T16:25:49.221Z",
+          "publishedAt": "2024-10-17T16:25:49.221Z",
+          "locale": null
+        },
+        "descriptions": []
+      },
+      {
+        "__component": "sections.competences-employee",
+        "id": 1,
+        "title": "Компетенции",
+        "button": "Связаться",
+        "link": null,
+        "cards": [
+          {
+            "id": 1,
+            "number": 1,
+            "title": "Криптоконсалтинг",
+            "description": "Нанять адвоката в лице Марата Аманлиева — оптимальное решение в ситуациях, когда  вам необходимо обеспечить правовую безопасность криптовалютных операций  и соответствие криптодеятельности требованиям регуляторов.\n",
+            "link": null
+          },
+          {
+            "id": 2,
+            "number": 2,
+            "title": "Арбитражные споры",
+            "description": "Услуги адвоката Аманлиева актуальны в случаях потребности в юридическом сопровождении  и защите ваших интересов в делах, рассматриваемых  в арбитражных судах. От консультации  и подготовки документов до исполнения  и обжалования решений.\n",
+            "link": null
+          },
+          {
+            "id": 3,
+            "number": 3,
+            "title": "Защита обвиняемых по уголовным делам",
+            "description": "Марат Аманлиев обеспечит отстаивание прав и интересов лиц, которые подозреваются  в совершении уголовного правонарушения. Выработает эффективную линию защиты  и соберет убедительную доказательную базу для разрешения ситуации в пользу клиента.",
+            "link": null
+          },
+          {
+            "id": 4,
+            "number": 4,
+            "title": "Защита потерпевших  при причинении вреда здоровью",
+            "description": "Адвокат Аманлиев из Right Side добьется справедливого возмещения вреда здоровью при получении травм, увечий и прочих повреждений различной степени тяжести. Включая утраченный потерпевшим заработок и дополнительно понесенные расходы.",
+            "link": null
+          }
+        ]
+      },
+      {
+        "__component": "sections.publications",
+        "id": 1,
+        "title": "Публикации про Марата Аманлиева",
+        "publications": [
+          {
+            "id": 1,
+            "title": "Газета.Ru",
+            "description": "Экспертные комментарии  по острым юридическим темам",
+            "link": "https://right-side.devappstudio.ru"
+          },
+          {
+            "id": 2,
+            "title": "Право.Ру",
+            "description": "Ответы на вопросы  пользователей портала",
+            "link": "https://right-side.devappstudio.ru"
+          },
+          {
+            "id": 3,
+            "title": "News.Ru",
+            "description": "Материал об ответственности  за лесные пожары",
+            "link": "https://right-side.devappstudio.ru"
+          }
+        ]
+      },
+      {
+        "__component": "sections.sector-cases",
+        "id": 8,
+        "title": "Выигранные дела",
+        "button": "Читать все"
+      },
+      {
+        "__component": "sections.contact-us-title",
+        "id": 10,
+        "titleContainer": {
+          "id": 156,
+          "title": "Связаться ",
+          "description": "\u003Cp\u003E\u003Cspan style=\"font-family:Golos;\"\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003EЕсли вам необходимы услуги адвоката, то Марат Аманлиев\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003E \u003C/span\u003E\u003Cspan style=\"color:hsl( 6, 100%, 57% );font-family:Mulish;\"\u003E\u003Ci\u003E\u003Cspan style=\"white-space:pre-wrap;\"\u003Eвсегда готов помочь в решении вашего вопроса\u003C/span\u003E\u003C/i\u003E\u003C/span\u003E\u003C/p\u003E"
+        }
+      }
+    ]
+  },
+  "meta": {
+
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_components_text_cards",
+  "info": {
+    "displayName": "textCard",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

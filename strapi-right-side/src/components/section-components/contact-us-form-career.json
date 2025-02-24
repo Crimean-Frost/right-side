@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_section_components_contact_us_form_careers",
+  "info": {
+    "displayName": "ContactUsFormCareer",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "mail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "comment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "agreement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.agreement"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Категории",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog",
+      "mappedBy": "category"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "cases": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::case.case",
+      "mappedBy": "categories"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "mappedBy": "categories"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.main-hero",
+        "sections.sector-services",
+        "sections.sector-cases",
+        "sections.principles",
+        "sections.for-whom",
+        "sections.contact-us-title",
+        "sections.sector-application"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

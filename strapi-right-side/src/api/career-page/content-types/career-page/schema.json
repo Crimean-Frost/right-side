@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "career_pages",
+  "info": {
+    "singularName": "career-page",
+    "pluralName": "career-pages",
+    "displayName": "Страница - Карьера"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.main-hero",
+        "sections.about-command",
+        "sections.vacancies",
+        "sections.contact-us-career"
+      ],
+      "required": true
+    }
+  }
+}

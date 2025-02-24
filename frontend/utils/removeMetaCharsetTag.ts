@@ -1,0 +1,1 @@
+export default (text?: string) => text?.replace('<meta charset="utf-8">', '');

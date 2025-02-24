@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_components_competence_title_cards",
+  "info": {
+    "displayName": "CompetenceTitleCard",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

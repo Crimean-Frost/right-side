@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_components_agreements",
+  "info": {
+    "displayName": "Agreement",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "agreement": {
+      "type": "text",
+      "required": true
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.file-link"
+    }
+  }
+}

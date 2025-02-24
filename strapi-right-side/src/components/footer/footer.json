@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-menu"
+    },
+    "contactLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.contact-link"
+    },
+    "centerFileLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.file-link"
+    },
+    "rightFileLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.file-link"
+    },
+    "credit": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "address": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "workingTime": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

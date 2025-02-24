@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_card_paginations",
+  "info": {
+    "displayName": "cardPagination",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "sortings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sorting.sorting"
+    },
+    "generalButton": {
+      "type": "string",
+      "required": true,
+      "default": "Читать статью"
+    }
+  }
+}

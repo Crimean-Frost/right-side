@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "displayName": "services",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "serviceButton": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

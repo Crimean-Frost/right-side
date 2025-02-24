@@ -1,0 +1,132 @@
+@tailwind base;
+
+@layer base {
+    @font-face {
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 400;
+        src: url(../../public/fonts/GolosText-Regular.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Golos';
+        font-style: normal;
+        font-weight: 500;
+        src: url(../../public/fonts/GolosText-Medium.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        src: url(../../public/fonts/Mulish-SemiBold.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Mulish';
+        font-style: italic;
+        font-weight: 500;
+        src: url(../../public/fonts/Mulish-SemiBoldItalic.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        src: url(../../public/fonts/Mulish-Bold.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Mulish';
+        font-style: italic;
+        font-weight: 600;
+        src: url(../../public/fonts/Mulish-BoldItalic.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 300;
+        src: url(../../public/fonts/Onest-Light.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        src: url(../../public/fonts/Onest-Regular.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 500;
+        src: url(../../public/fonts/Onest-Medium.woff2) format('woff2');
+    }
+}
+
+:focus {
+    @apply outline-none
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+body {
+    @apply m-0 p-0
+}
+
+html {
+    @apply scroll-smooth
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    @apply box-border;
+}
+
+
+body {
+    @apply bg-white antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form__input-error {
+    @apply border-error-red text-error-red !important;
+    animation: inputsError 0.5s ease forwards;
+}
+
+.checkbox-error {
+    @apply border-error-red !important;
+    animation: inputsError 0.5s ease forwards;
+}
+
+@keyframes inputsError {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(3px);
+    }
+    66% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

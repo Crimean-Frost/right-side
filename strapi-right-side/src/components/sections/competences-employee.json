@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_competences_employees",
+  "info": {
+    "displayName": "CompetencesEmployee",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.competence-link-card"
+    }
+  }
+}

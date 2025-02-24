@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_components_competence_cards",
+  "info": {
+    "displayName": "CompetenceCard",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "unique": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "default",
+        "maxLengthCharacters": 150
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

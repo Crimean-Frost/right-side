@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_contactuses",
+  "info": {
+    "displayName": "ContactUs",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.contact-us-form",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imageMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_sector_cases",
+  "info": {
+    "displayName": "SectorCases",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

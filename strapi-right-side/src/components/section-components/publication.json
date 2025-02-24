@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_components_publications",
+  "info": {
+    "displayName": "Publication",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 35
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 75
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

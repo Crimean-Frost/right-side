@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "bases",
+  "info": {
+    "singularName": "base",
+    "pluralName": "bases",
+    "displayName": "Базовый шаблон",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer",
+      "required": true
+    },
+    "pageNotFound": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.404",
+      "required": true
+    },
+    "modalWindow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.modal-window"
+    }
+  }
+}

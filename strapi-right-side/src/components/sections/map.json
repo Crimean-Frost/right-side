@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_sections_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "centerX": {
+      "type": "decimal",
+      "required": true
+    },
+    "centerY": {
+      "type": "decimal",
+      "required": true
+    },
+    "iconX": {
+      "type": "decimal",
+      "required": true
+    },
+    "iconY": {
+      "type": "decimal",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "zoom": {
+      "required": true,
+      "default": 16,
+      "max": 19,
+      "min": 1,
+      "type": "integer"
+    }
+  }
+}

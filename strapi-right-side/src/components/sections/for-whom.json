@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_for_whoms",
+  "info": {
+    "displayName": "ForWhom",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.for-whom-card",
+      "required": true
+    }
+  }
+}

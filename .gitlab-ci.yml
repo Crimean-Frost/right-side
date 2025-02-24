@@ -1,0 +1,61 @@
+# Определение стадий пайплайна
+stages:
+  - install
+  - test
+  - deploy
+
+variables:
+  NODE_ENV: production
+
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - /frontend/node_modules/
+
+install_dependencies:
+  stage: install
+  image: node:18-alpine
+  script:
+    - echo "Установка зависимостей..."
+    - npm ci
+  cache:
+    paths:
+      - node_modules/
+  artifacts:
+    paths:
+      - node_modules/
+  only:
+    - branches
+    - merge_requests
+
+test:
+  stage: test
+  image: node:18-alpine
+  script:
+    - echo "Сборка приложения..."
+    - npm run build
+  dependencies:
+    - install_dependencies
+  only:
+    - branches
+    - merge_requests
+
+deploy_production:
+  stage: deploy
+  image: node:18-alpine
+  before_script:
+    - mkdir -p ~/.ssh
+    - ssh-keyscan -H $REMOTE_HOST >> ~/.ssh/known_hosts
+  script:
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > private_key
+    - chmod 600 private_key
+    - rsync -avz --delete -e "ssh -i private_key" --exclude='.git' --exclude='/frontend/node_modules' ./$FRONTEND_DIR $REMOTE_USER@$REMOTE_HOST:$OUTPUT_DIR/frontend
+    - ssh -i private_key $REMOTE_USER@$REMOTE_HOST 'cd $OUTPUT_DIR && docker-compose up -d --build frontend'
+    - rm private_key
+  environment:
+    name: production
+  only:
+    - main 
+  dependencies:
+    - test
+

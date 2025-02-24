@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_principles",
+  "info": {
+    "displayName": "Principles",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "principles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.competence-card",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_vacancies",
+  "info": {
+    "displayName": "Vacancies",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container"
+    },
+    "vacancies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.text-card"
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

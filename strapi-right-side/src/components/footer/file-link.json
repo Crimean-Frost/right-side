@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_footer_file_links",
+  "info": {
+    "displayName": "fileLink",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

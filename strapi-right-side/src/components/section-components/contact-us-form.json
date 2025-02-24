@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_section_components_contact_us_forms",
+  "info": {
+    "displayName": "contactUsForm",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "time": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "socialNetwork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "rangeTimes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vremennoj-diapazon.vremennoj-diapazon"
+    },
+    "socialNetworks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::soczialnye-seti.soczialnye-seti"
+    },
+    "agreement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.agreement"
+    }
+  }
+}

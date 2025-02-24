@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "detail_services",
+  "info": {
+    "singularName": "detail-service",
+    "pluralName": "detail-services",
+    "displayName": "Детальная - Услуги"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.contact-us-without"
+      ],
+      "required": true
+    }
+  }
+}

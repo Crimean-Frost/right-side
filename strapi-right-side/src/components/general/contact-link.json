@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_general_contact_links",
+  "info": {
+    "displayName": "ContactLink",
+    "icon": "paperPlane",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "action": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "phone",
+        "mail"
+      ],
+      "required": true,
+      "default": "link"
+    },
+    "link": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

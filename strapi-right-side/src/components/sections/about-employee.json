@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_sections_about_employees",
+  "info": {
+    "displayName": "AboutEmployee",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "smallImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "largeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "largeImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.text-card"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.advantages-card"
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.text-card",
+      "required": true
+    }
+  }
+}

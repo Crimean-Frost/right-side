@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_learn_more_cleans",
+  "info": {
+    "displayName": "MultipleCleanCard",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.learn-more-clean-card"
+    }
+  }
+}

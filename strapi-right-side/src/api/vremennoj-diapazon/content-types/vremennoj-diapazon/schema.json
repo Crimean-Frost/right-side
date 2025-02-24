@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vremennoj_diapazons",
+  "info": {
+    "singularName": "vremennoj-diapazon",
+    "pluralName": "vremennoj-diapazons",
+    "displayName": "Временной диапазон"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "timeFrom": {
+      "type": "time",
+      "default": "00:00:00.000",
+      "required": true
+    },
+    "timeTo": {
+      "type": "time",
+      "required": true,
+      "default": "01:00:00.000"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_competence_cards",
+  "info": {
+    "displayName": "Competences",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container"
+    },
+    "competenceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.competence-card"
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

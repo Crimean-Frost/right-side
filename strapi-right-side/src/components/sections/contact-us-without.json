@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_contact_us_withouts",
+  "info": {
+    "displayName": "ContactUsWithout",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.contact-us-form"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imageMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_about_companies",
+  "info": {
+    "displayName": "AboutCompany",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "titleContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.title-container"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.competence-title-card",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_leave_applications",
+  "info": {
+    "displayName": "SingleTitleCard",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.advantages-card",
+      "required": true
+    }
+  }
+}

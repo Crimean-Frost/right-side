@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_modal_forms",
+  "info": {
+    "displayName": "ModalForm",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.input"
+    },
+    "writeMe": {
+      "type": "text",
+      "required": true
+    },
+    "agreement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.agreement"
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_publications",
+  "info": {
+    "displayName": "Publications",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "publications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.publication"
+    }
+  }
+}

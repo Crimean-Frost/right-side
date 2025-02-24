@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_components_inputs",
+  "info": {
+    "displayName": "Input",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

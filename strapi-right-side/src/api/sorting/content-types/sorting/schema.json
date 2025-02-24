@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sortings",
+  "info": {
+    "singularName": "sorting",
+    "pluralName": "sortings",
+    "displayName": "Сортировка",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
